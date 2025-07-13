@@ -1,0 +1,115 @@
+
+/* universal style */
+body{
+    max-width: 1600px;
+    /* background-image: linear-gradient(-90deg, #479786 0%, #f1da90 35%, #ffae34 100%); */
+    background-color: #f88379;
+    background-image: linear-gradient(90deg, #f88379 0%, #fd9600 37%, #ffb347 100%);
+}
+
+/* font styles */
+
+.jost{
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.quicksand{
+  font-family: "Quicksand", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+/* header style */
+
+.header{
+    max-width: 1600px;
+    height: 775px;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-bar img{
+    width: 150px;
+    height: 150px;
+}
+.menu-button{
+    display: flex;
+    gap: 50px;
+}
+.menu-button a{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    font-weight: 700;
+}
+.sign-button{
+    margin-left: 100px;
+}
+.sign-button button{
+    width: 127px;
+    height: 50px;
+    margin-right: 40px;
+    font-size: 22px;
+    font-weight: 700;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: transparent;
+}
+
+.content-banner{
+    display: flex;
+    align-items: center;
+    margin: 0 30px;
+}
+.contents{
+    display: flex;
+    flex-direction: column;
+}
+.contents h1{
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 110.5px;
+    color: rgba(71, 53, 37, 0.9);
+    margin-bottom: 23px;
+}
+.contents p{
+    font-size: 22px;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.65);
+    margin-top: 0px;
+}
+.content-banner img{
+    width: 450px;
+    height: 533px;
+}
+.banner-btn{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-left: 30px;
+}
+.btn1 button{
+    width: 140px;
+    height: 55px;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    background-color: rgba(65, 60, 16, 0.87);
+}
+.btn2 button{
+    width: 140px;
+    height: 55px;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(65, 60, 16, 0.87);
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    background-color: transparent;
+}
